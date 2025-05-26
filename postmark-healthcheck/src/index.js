@@ -15,7 +15,7 @@ export default {
 
 	async fetch(request, env, ctx) {
 		// just for testing/dev
-		await sendHealthcheckEmails(env);
+		// await sendHealthcheckEmails(env);
 		return new Response('✅ Postmark Healthcheck ausgeführt.');
 	},
 };
