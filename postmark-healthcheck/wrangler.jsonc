@@ -12,6 +12,9 @@
 	},
 	"triggers": {
 		"crons": ["0 8 * * *"]
+	},
+	"env": {
+		"dev": {},
 	}
 	/**
 	 * Smart Placement
